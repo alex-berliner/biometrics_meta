@@ -1,0 +1,12 @@
+[submodule "biometrics_personal"]
+	path = biometrics_personal
+	url = https://github.com/alex-berliner/biometrics_personal
+[submodule "utils"]
+	path = utils
+	url = https://github.com/alex-berliner/utils
+[submodule "biometrics"]
+	path = biometrics
+	url = https://github.com/alex-berliner/biometrics
+[submodule "biometrics_web"]
+	path = biometrics_web
+	url = https://bitbucket.org/Monorail/monorail.bitbucket.io/src
