@@ -10,3 +10,6 @@
 [submodule "biometrics_web"]
 	path = biometrics_web
 	url = https://bitbucket.org/Monorail/monorail.bitbucket.io/src
+[submodule "biometrics_genweb"]
+	path = biometrics_genweb
+	url = git@github.com:alex-berliner/biometrics_genweb.git
