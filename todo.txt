@@ -1,3 +1,2 @@
-"last 30 days" graph
 rename metaproject folders
 fix bar graph widths
