@@ -13,3 +13,6 @@
 [submodule "biometrics_genweb"]
 	path = biometrics_genweb
 	url = git@github.com:alex-berliner/biometrics_genweb.git
+[submodule "web_biometrics"]
+	path = web_biometrics
+	url = https://github.com/alex-berliner/web_biometrics
