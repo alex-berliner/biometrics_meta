@@ -1,9 +1,9 @@
-cd biometrics_personal
-./run.sh
-cd ..
-cd biometrics
-./run.sh
-cd ..
-cd biometrics_genweb
-python3 webgen.py || true
-cd ..
+if [ -z "$BIOMETRICS_ROOT" ]; then
+    echo "Set BIOMETRICS_ROOT to the root directory"
+fi
+
+python3 $BIOMETRICS_ROOT/biometrics_personal/src/daylio_csv/daylio_csv_parser.py
+python3 $BIOMETRICS_ROOT/biometrics_genweb/webgen.py || true
+
+git -C $BIOMETRICS_ROOT/web_biometrics/ add -A
+git -C $BIOMETRICS_ROOT/web_biometrics/ commit -m "`date`"
