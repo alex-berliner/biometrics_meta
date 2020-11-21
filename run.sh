@@ -7,3 +7,4 @@ python3 $BIOMETRICS_ROOT/biometrics_genweb/webgen.py || true
 
 git -C $BIOMETRICS_ROOT/web_biometrics/ add -A
 git -C $BIOMETRICS_ROOT/web_biometrics/ commit -m "`date`"
+git -C $BIOMETRICS_ROOT push origin HEAD:master
